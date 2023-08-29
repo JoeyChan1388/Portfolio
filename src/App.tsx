@@ -1,14 +1,23 @@
 import "./App.css";
 
+import { useEffect } from "react";
+
 import Header from "./components/header/Header";
 import Project from "./components/project/project";
+
+import AOS from "aos";
+import 'aos/dist/aos.css';
 
 import renderUI from "./assets/images/render-ui.png";
 import niceWeather from "./assets/images/nice-weather.png";
 import discordClone from "./assets/images/discord-clone.png";
 import hotRides from "./assets/images/hot-rides.png";
 
+
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <>
       <div className="portfolio__container">
