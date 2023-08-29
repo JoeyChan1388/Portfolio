@@ -1,0 +1,169 @@
+.portfolio__container {
+  background-color: #18182A;
+  color: white;
+  width: 100%;
+  min-height: 100vh;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 200px;
+}
+
+.portfolio__hero {
+  width: 100vw;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1800px;
+}
+
+.portfolio__hero__text {
+  width:  fit-content;
+  height: fit-content;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.portfolio__about {
+  padding-top: 500px;
+  padding-bottom: 200px;
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1800px;
+}
+
+.portfolio__about > h2{
+  font-size: 4rem;
+}
+
+.portfolio__about__text {
+  margin: 2rem 0;
+  width: 80%;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+}
+
+.portfolio__skills {
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1800px;
+}
+
+.portfolio__skills > h2{
+  font-size: 4rem;
+}
+
+.portfolio__skills > h3{
+  font-size: 1.75rem;
+}
+
+.portfolio__skills__list {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  width: 80%;
+}
+
+.portfolio__skills__list > h3{
+  font-size: 1.75rem;
+}
+
+.portfolio__skills__list__items {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 25px;
+}
+
+.skill__item {
+  width: fit-content;
+  height: fit-content;
+  margin: 10px;
+  padding: 15px 50px;
+  background-color: #242641;
+  color: #FF4A55;
+  font-weight: 400;
+  font-size: 1.25rem;
+  border-radius: 5px;
+}
+
+.portfolio__projects {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1800px;
+}
+
+
+.portfolio__projects > h2{
+  font-size: 4rem;
+}
+
+.portfolio__projects > h3{
+  font-size: 1.75rem;
+}
+
+.portfolio__projects__list {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  width: 80%;
+}
+
+.portfolio__contact {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1800px;
+}
+
+
+.portfolio__contact > h2{
+  font-size: 4rem;
+}
+
+.portfolio__contact > h3{
+  font-size: 1.75rem;
+}
+
+.portfolio__contact__list {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  width: 80%;
+}
+
+.portfolio__contact__list__item {
+  width: 30%;
+}
+
+.portfolio__contact__list__item > h3{
+  font-size: 1.75rem;
+}
+
+.portfolio__contact__list__item > p{
+  font-size: 1.25rem;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
