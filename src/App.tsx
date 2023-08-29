@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import Header from "./components/header/Header";
 import Project from "./components/project/project";
 
+//@ts-expect-error
 import AOS from "aos";
 import 'aos/dist/aos.css';
 
