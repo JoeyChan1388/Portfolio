@@ -6,7 +6,7 @@ const Project = (props: {img: any, name: string, description: string, url: strin
       <div className="portfolio__project__item" data-aos="fade-up">
         <div className="portfolio__project__item__image">
             <div className="image__container">
-                <img src={props.img || 'https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png'}></img>
+                <img alt={props.name || ""} src={props.img || 'https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png'}></img>
             </div>
         </div>
         <div className="portfolio__project__item__text">

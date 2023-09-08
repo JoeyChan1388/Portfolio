@@ -31,7 +31,7 @@ function App() {
           </div>
         </div>
         <div className="portfolio__about">
-          <h2 data-aos="fade-up">About Me</h2>
+          <h2 id='aboutme' data-aos="fade-up">About Me</h2>
           <div className="portfolio__about__text">
             <h3 className="accent" data-aos="fade-up">
               Introduction
@@ -86,8 +86,8 @@ function App() {
             </p>
           </div>
         </div>
-        <div className="portfolio__skills">
-          <h2 data-aos="fade-up">Skills</h2>
+        <div  className="portfolio__skills">
+          <h2 id="skills" data-aos="fade-up">Skills</h2>
           <h3 data-aos="fade-up">
             These are some of the skills I am familiar with.
           </h3>
@@ -156,6 +156,13 @@ function App() {
                 className="skill__item"
               >
                 APIs
+              </div>
+              <div
+                data-aos="fade-left"
+                data-aos-delay="1000"
+                className="skill__item"
+              >
+                Web VR
               </div>
             </div>
           </div>
@@ -279,11 +286,25 @@ function App() {
               >
                 MS Office
               </div>
+              <div
+                data-aos="fade-left"
+                data-aos-delay="900"
+                className="skill__item"
+              >
+                Google Cloud Platform
+              </div>
+              <div
+                data-aos="fade-left"
+                data-aos-delay="1000"
+                className="skill__item"
+              >
+                PlayCanvas
+              </div>
             </div>
           </div>
         </div>
         <div className="portfolio__projects">
-          <h2 data-aos="fade-up">Projects</h2>
+          <h2 id="projects" data-aos="fade-up">Projects</h2>
           <h3 data-aos="fade-up">
             These are some of the projects I've worked on.
           </h3>
@@ -315,7 +336,7 @@ function App() {
           </div>
         </div>
         <div className="portfolio__contact">
-          <h2 data-aos="fade-up">Want to contact me?</h2>
+          <h2 id="contact" data-aos="fade-up">Want to contact me?</h2>
           <h3 data-aos="fade-up">
             {" "}
             Here are some ways you can reach out to me!{" "}
@@ -364,6 +385,14 @@ function App() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="decorations__container">
+        <div className="decorations__circle" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" style={{top: '600px', right: '-250px'}}></div>
+        <div className="decorations__circle circle__red" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" style={{top: '1500px', left: '-250px'}}></div>
+        <div className="decorations__circle circle__red" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000"  style={{top: '2500px', right: '-250px'}}></div>
+        <div className="decorations__circle" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000"  style={{top: '3400px', left: '-250px'}}></div>
+        <div className="decorations__circle circle__red" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" style={{top: '4500px', right: '-250px'}}></div>
+        <div className="decorations__circle" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" style={{top: '5500px', left: '-250px'}}></div>
       </div>
     </>
   );

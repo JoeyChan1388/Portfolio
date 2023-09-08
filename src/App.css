@@ -1,5 +1,4 @@
 .portfolio__container {
-  background-color: #18182A;
   color: white;
   width: 100%;
   min-height: 100vh;
@@ -8,6 +7,7 @@
   flex-direction: column;
   align-items: center;
   padding-bottom: 200px;
+  z-index: 1;
 }
 
 .portfolio__hero {
@@ -161,6 +161,33 @@
   font-size: 1.25rem;
   width: 100%;
   word-wrap: break-word;
+}
+
+.decorations__container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 0;
+  max-width: 2200px;
+}
+
+.decorations__circle {
+  width: 500px;
+  height: auto;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background: rgba(143,150,220, 0.3);
+  background: radial-gradient(circle, rgba(143,150,220,0.3) 0%, rgba(255,255,255,0) 70%);
+  position: absolute;
+  z-index: 0;
+}
+
+.circle__red {
+  background: rgba(255,74,85, 0.3);
+  background: radial-gradient(circle, rgba(255,74,85,0.3) 0%, rgba(255,255,255,0) 70%);
 }
 
 @media screen and (max-width: 1024px) {
