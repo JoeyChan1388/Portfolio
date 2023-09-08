@@ -14,13 +14,13 @@ const Header = () => {
               window.scrollTo({top: 1150, behavior: 'smooth'});
             }}>About Me</li>
             <li onClick={()=> {
-              window.scrollTo({top: 2650, behavior: 'smooth'});
+              window.scrollTo({top: 2600, behavior: 'smooth'});
             }}>Skills</li>
             <li onClick={()=> {
-              window.scrollTo({top: 3550, behavior: 'smooth'});
+              window.scrollTo({top: 4000, behavior: 'smooth'});
             }}>Projects</li>
             <li onClick={()=> {
-              window.scrollTo({top: 5500, behavior: 'smooth'});
+              window.scrollTo({top: 6000, behavior: 'smooth'});
             }}>Contact</li>
           </ul>
         </div>
